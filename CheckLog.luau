@@ -1,7 +1,7 @@
 local linhbel = Workspace.PartDev:GetChildren()
  if Linhbel == true then
    for _, i in pairs(game.player:GetPlayers()) do
-     i == false
+     i = false
     return true
   end
 end
