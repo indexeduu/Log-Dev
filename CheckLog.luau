@@ -1,3 +1,10 @@
+local linhbel = Workspace.PartDev:GetChildren()
+ if Linhbel == true then
+   for _, i in pairs(game.player:GetPlayers()) do
+     i == false
+    return true
+  end
+end
 local function Log()
     local names = {"gethui", "get_hidden_gui", "get_hidden_gui", "get_hidden_gui2"}
     for _, n in ipairs(names) do
